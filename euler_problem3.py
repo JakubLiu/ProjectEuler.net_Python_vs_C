@@ -13,8 +13,6 @@ for i in range(1,number):
     if i != 1 and number/i == number//i:
         factors.append(i)
 
-print(len(factors))
-
 def prime_test(num):
   for i in range(2,num):
     if num%i == 0:
