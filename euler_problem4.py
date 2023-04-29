@@ -27,5 +27,4 @@ for i in range(min, max+1):
         palindromes.append(i)
     
 
-print(len(palindromes))
-print(palindromes[1798-1])
+print(palindromes[-1])
